@@ -1,0 +1,12 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB #单个文件大小限制
+      max-request-size: 1000MB #总文件大小限制
+
+logging:
+  level:
+    root: info
+  charset:
+    console: utf-8
+    file: UTF-8
